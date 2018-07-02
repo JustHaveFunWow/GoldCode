@@ -7,9 +7,6 @@ const AppRouteSwitch = () => (
         <Route exact path='/' component={App}/>
     </Switch>
 );
-var indexRoutes = [
 
-    {path: "/", name: "index", component: App}
-];
 
 export default AppRouteSwitch;
